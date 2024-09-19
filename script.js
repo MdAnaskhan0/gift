@@ -7,7 +7,7 @@ document.getElementById('wish-button').addEventListener('click', function() {
 
     // Slowly show the message with a fade-in effect
     message.style.opacity = '0';
-    message.innerHTML = "Wishing you the best birthday ever! May your year be filled with happiness, success, and lots of fun! 🎂🎁";
+    message.innerHTML = "Hi, I am Md. Anas Khan as your friend, wishing you the best birthday ever! May your year be filled with happiness, success, and lots of fun! 🎂🎁";
     message.style.transition = 'opacity 3s ease-in'; // 3 seconds fade-in
     setTimeout(() => {
         message.style.opacity = '1'; // Gradually fade in
